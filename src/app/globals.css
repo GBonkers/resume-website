@@ -21,10 +21,11 @@
 body {
   /* Base dark canvas */
   background-color: #0a0f21;
+
   /* Layered gradients for depth and color pop */
   background-image:
-    radial-gradient(circle at 20% 25%, rgb(30, 150, 211), transparent 60%),
-    radial-gradient(circle at 80% 80%, rgb(151, 18, 115), transparent 50%),
+    radial-gradient(circle at 20% 25%, rgb(30 150 211), transparent 60%),
+    radial-gradient(circle at 80% 80%, rgb(151 18 115), transparent 50%),
     linear-gradient(135deg, #0b0202 0%, #4c4a4a 100%);
   background-blend-mode: overlay, overlay, normal;
   background-size: cover;
