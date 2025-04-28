@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
-import type { Engine } from '@tsparticles/engine';
+import type { Engine, RecursivePartial, IOptions } from '@tsparticles/engine';
 import { loadFull } from 'tsparticles';
 
 export default function ParticlesWrapper() {
@@ -18,15 +18,15 @@ export default function ParticlesWrapper() {
     });
   }, []);
 
-  const options = {
+  const options: RecursivePartial<IOptions> = {
     background: { color: '#222' },
     fpsLimit: 30,
     particles: {
-      number: { value: 111, density: { enable: true, area: 800 } },
+      number: { value: 111, density: { enable: true } },
       color: { value: '#808080' },
       shape: { type: 'circle' },
       opacity: { value: 0.3 },
-      size: { value: 3, random: true },
+      size: { value: 3 },
       links: {
         enable: true,
         distance: 150,
@@ -38,7 +38,7 @@ export default function ParticlesWrapper() {
         enable: true,
         speed: 0.15,
         straight: false,
-        outModes: { default: 'out' },
+        outModes: 'out',
       },
     },
     detectRetina: true,
