@@ -10,17 +10,7 @@ import {
 export default function Hero() {
   return (
     <section
-      className="
-        min-h-screen          /* full viewport height */
-        flex
-        flex-col
-        items-center           /* center horizontally */
-        justify-start          /* align to top vertically */
-        pt-16                  /* push down a bit from very top */
-        px-4
-        text-left              /* left-align text */
-        text-white
-      "
+      className="min-h-screen flex flex-col items-center justify-start pt-16 px-4 text-left text-white"
     >
       {/* constrain width so you aren’t full-bleed left */}
       <div className="w-full max-w-2xl space-y-4">
