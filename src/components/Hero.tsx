@@ -9,9 +9,9 @@ import {
 
 export default function Hero() {
   return (
-    <section className='flex min-h-screen flex-col items-center justify-start px-4 pt-16 text-left text-white'>
+    <section className='flex flex-col items-center justify-start px-4 pt-16 text-left text-white'>
       {/* constrain width so you aren’t full-bleed left */}
-      <div className='w-full max-w-2xl space-y-4'>
+      <div className='w-full max-w-5xl space-y-4'>
         {/* User icon */}
         <FaRegUserCircle className='text-6xl' />
 
