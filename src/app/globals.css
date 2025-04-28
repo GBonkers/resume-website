@@ -1,5 +1,8 @@
 /* src/app/globals.css */
 
+/* 0) Import Google Fonts — must be the very first rule */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 /* 1) Import Tailwind CSS (v4) */
 @import 'tailwindcss';
 
