@@ -3,6 +3,7 @@ import Education from '@/components/Education';
 import ParticlesBackground from '@/components/ParticlesBackground';
 import TechStack from '@/components/TechStack';
 import Projects from '@/components/Projects';
+import Footer from '@/components/Footer';
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
         <Education />
         <TechStack />
         <Projects />
+        <Footer />
       </div>
     </div>
   );
