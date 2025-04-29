@@ -107,7 +107,10 @@ const projects: Project[] = [
 ];
 
 const Projects: React.FC = () => (
-  <section className='flex flex-col items-center justify-start px-4 pt-16 text-left text-white'>
+  <section
+    id='projects'
+    className='flex flex-col items-center justify-start px-4 pt-16 text-left text-white'
+  >
     <div className='w-full max-w-5xl space-y-4'>
       <h2 className='mb-12 text-3xl font-bold text-white'>Projects</h2>
 
