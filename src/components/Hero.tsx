@@ -2,7 +2,6 @@ import {
   FaMapMarkerAlt,
   FaFilePdf,
   FaLinkedin,
-  FaTwitter,
   FaGithub,
 } from 'react-icons/fa';
 
@@ -38,13 +37,20 @@ export default function Hero() {
             <FaFilePdf /> Resume
           </a>
           <div className='flex items-center gap-4 text-2xl'>
-            <a href='#' aria-label='LinkedIn'>
+            <a
+              href='https://www.linkedin.com/in/guillaume-bouchard-a0a705304/'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='LinkedIn'
+            >
               <FaLinkedin />
             </a>
-            <a href='#' aria-label='Twitter'>
-              <FaTwitter />
-            </a>
-            <a href='#' aria-label='GitHub'>
+            <a
+              href='https://github.com/GBonkers'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='GitHub'
+            >
               <FaGithub />
             </a>
           </div>

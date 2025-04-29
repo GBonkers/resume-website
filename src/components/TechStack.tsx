@@ -43,14 +43,15 @@ const Hex = ({
 );
 
 const TechStack = (): JSX.Element => (
-  <section className='flex flex-col items-center justify-start px-4 pt-16 text-left text-white'>
+  <section
+    id='tech'
+    className='flex flex-col items-center justify-start px-4 pt-16 text-left text-white'
+  >
     <div className='w-full max-w-5xl space-y-8'>
       <h2 className='mb-4 text-3xl font-bold text-white'>Tech Stack</h2>
 
-      {/*<RetroDisplay text="My Retro Label" className="mt-4" />*/}
-
       {/* Hex grid */}
-      <div className='flex flex-col items-center'>
+      <div className='flex origin-top scale-65 transform flex-col items-center sm:scale-100'>
         {/* Row 1 */}
         <div className='flex gap-[5px]'>
           <Hex Icon={SiNextdotjs} color='#d48d98' name='Next.js' />
@@ -79,8 +80,9 @@ const TechStack = (): JSX.Element => (
           <Hex Icon={SiCplusplus} color='#ff7a70' name='C++' />
         </div>
       </div>
+
       {/* Subtle, centered legend */}
-      <div className='mb-4 flex justify-center space-x-6'>
+      <div className='flex origin-top scale-65 transform justify-center space-x-6 sm:mb-4 sm:scale-100'>
         <div className='flex items-center space-x-1'>
           <div
             className='h-3 w-3 rounded-full'

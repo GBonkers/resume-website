@@ -70,18 +70,16 @@ export default function Education() {
                 </div>
 
                 {/* Skills List */}
-                <ul className='space-y-4 text-[15px] leading-relaxed text-gray-300'>
-                  <li className='flex items-start gap-2'>
-                    <span className='mt-1 h-2 w-2 rounded-full bg-green-400'></span>
+                <ul className='list-inside list-disc space-y-4 text-[15px] leading-relaxed text-gray-300 marker:text-green-400'>
+                  <li>
                     Web development using{' '}
                     <span className='font-semibold text-white'>React.js</span>,{' '}
-                    <span className='font-semibold text-white'>Go</span>,{' '}
+                    <span className='font-semibold text-white'>Go</span>, and{' '}
                     <span className='font-semibold text-white'>
                       Tailwind CSS
                     </span>
                   </li>
-                  <li className='flex items-start gap-2'>
-                    <span className='mt-1 h-2 w-2 rounded-full bg-green-400'></span>
+                  <li>
                     API design and development with{' '}
                     <span className='font-semibold text-white'>
                       Spring Boot
@@ -89,23 +87,20 @@ export default function Education() {
                     , <span className='font-semibold text-white'>Gradle</span>,
                     and <span className='font-semibold text-white'>Maven</span>
                   </li>
-                  <li className='flex items-start gap-2'>
-                    <span className='mt-1 h-2 w-2 rounded-full bg-green-400'></span>
+                  <li>
                     Database management with{' '}
                     <span className='font-semibold text-white'>MySQL</span>,{' '}
                     <span className='font-semibold text-white'>PostgreSQL</span>
                     , and{' '}
                     <span className='font-semibold text-white'>Oracle</span>
                   </li>
-                  <li className='flex items-start gap-2'>
-                    <span className='mt-1 h-2 w-2 rounded-full bg-green-400'></span>
+                  <li>
                     Agile project management using{' '}
                     <span className='font-semibold text-white'>
                       Scrum methodologies
                     </span>
                   </li>
-                  <li className='flex items-start gap-2'>
-                    <span className='mt-1 h-2 w-2 rounded-full bg-green-400'></span>
+                  <li>
                     Understanding and applying{' '}
                     <span className='font-semibold text-white'>
                       HTTP concepts
@@ -116,8 +111,7 @@ export default function Education() {
                     and{' '}
                     <span className='font-semibold text-white'>sessions</span>
                   </li>
-                  <li className='flex items-start gap-2'>
-                    <span className='mt-1 h-2 w-2 rounded-full bg-green-400'></span>
+                  <li>
                     Implementing cybersecurity best practices (e.g.,{' '}
                     <span className='font-semibold text-white'>
                       SQL Injection
