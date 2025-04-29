@@ -45,8 +45,7 @@ const Hex = ({
 const TechStack = (): JSX.Element => (
   <section className='flex flex-col items-center justify-start px-4 pt-16 text-left text-white'>
     <div className='w-full max-w-5xl space-y-8'>
-      <h2 className='mb-4 text-4xl font-bold text-white'>Tech Stack</h2>
-      <hr className='mb-4 border-t border-gray-800' />
+      <h2 className='mb-4 text-3xl font-bold text-white'>Tech Stack</h2>
 
       {/*<RetroDisplay text="My Retro Label" className="mt-4" />*/}
 

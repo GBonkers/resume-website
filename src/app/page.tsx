@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import Education from '@/components/Education';
 import ParticlesBackground from '@/components/ParticlesBackground';
 import TechStack from '@/components/TechStack';
+import Projects from '@/components/Projects';
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
         <Hero />
         <Education />
         <TechStack />
+        <Projects />
       </div>
     </div>
   );

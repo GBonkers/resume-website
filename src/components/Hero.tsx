@@ -1,5 +1,4 @@
 import {
-  FaRegUserCircle,
   FaMapMarkerAlt,
   FaFilePdf,
   FaLinkedin,
@@ -13,7 +12,7 @@ export default function Hero() {
       {/* constrain width so you aren’t full-bleed left */}
       <div className='w-full max-w-5xl space-y-4'>
         {/* User icon */}
-        <FaRegUserCircle className='text-6xl' />
+        {/*<FaRegUserCircle className='text-6xl' />*/}
 
         {/* Name */}
         <h1 className='text-5xl font-bold'>Guillaume Bouchard</h1>

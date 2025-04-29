@@ -13,10 +13,10 @@ export default function Education() {
         <h2 className='text-3xl font-bold'>Education & Certifications</h2>
 
         {/* Floating Content */}
-        <div className='rounded-2xl bg-black/50 p-8 shadow-[0px_20px_50px_rgba(0,0,0,0.6)] ring-1 ring-white/10 backdrop-blur-md'>
+        <div className='rounded-2xl bg-black/20 p-8 shadow-[0px_20px_50px_rgba(0,0,0,0.6)] ring-1 ring-white/10 backdrop-blur-sm'>
           {/* Slider Toggle */}
           <div className='mb-8 flex justify-center'>
-            <div className='relative h-12 w-full overflow-hidden rounded-full bg-white/10 p-1 select-none'>
+            <div className='relative h-12 w-full overflow-hidden rounded-full bg-white/20 p-1 backdrop-blur-sm select-none'>
               {/* Sliding Indicator */}
               <div
                 style={{
@@ -57,7 +57,7 @@ export default function Education() {
 
             {/* Timeline Items */}
             {selected === 'college' && (
-              <div className='relative flex flex-col gap-6 rounded-lg bg-neutral-900 p-6 shadow-lg backdrop-blur-md'>
+              <div className='relative flex flex-col gap-6 rounded-lg bg-neutral-900/80 p-6 shadow-lg ring-1 ring-white/5 backdrop-blur-sm'>
                 {/* Diploma Subtitle */}
                 <div>
                   <h3 className='text-2xl font-bold text-white'>
@@ -133,7 +133,7 @@ export default function Education() {
             )}
 
             {selected === 'other' && (
-              <div className='relative flex flex-col gap-10 rounded-lg bg-[#1a1a1a] p-6 shadow-lg backdrop-blur-md'>
+              <div className='relative flex flex-col gap-10 rounded-lg bg-neutral-900/80 p-6 shadow-lg ring-1 ring-white/5 backdrop-blur-sm'>
                 {/* CÉGEP de Sherbrooke */}
                 <div className='flex flex-col gap-4'>
                   <div>
