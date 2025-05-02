@@ -128,72 +128,6 @@ export default function Education() {
 
             {selected === 'other' && (
               <div className='relative flex flex-col gap-10 rounded-lg bg-neutral-900/80 p-6 shadow-lg ring-1 ring-white/5 backdrop-blur-sm'>
-                {/* CÉGEP de Sherbrooke */}
-                <div className='flex flex-col gap-4'>
-                  <div>
-                    <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
-                      <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#105c54]'></span>
-                      CÉGEP de Sherbrooke
-                    </h3>
-                    <p className='mt-1 text-sm text-gray-400'>
-                      August 2021 – May 2022
-                    </p>
-                    <div className='mt-2 h-0.5 w-16 rounded-full bg-[#105c54]'></div>
-                  </div>
-                  <p className='text-[15px] leading-relaxed text-gray-300'>
-                    Focus on{' '}
-                    <span className='font-semibold text-white'>
-                      C++ programming fundamentals
-                    </span>{' '}
-                    and{' '}
-                    <span className='font-semibold text-white'>
-                      object-oriented design principles
-                    </span>
-                    .
-                  </p>
-                </div>
-
-                {/* University of Ottawa */}
-                <div className='flex flex-col gap-4'>
-                  <div>
-                    <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
-                      <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#800020]'></span>
-                      University of Ottawa
-                    </h3>
-                    <p className='mt-1 text-sm text-gray-400'>
-                      September 2022 – September 2023
-                    </p>
-                    <div className='mt-2 h-0.5 w-16 rounded-full bg-[#800020]'></div>
-                  </div>
-                  <ul className='list-inside list-disc space-y-3 text-[15px] leading-relaxed text-gray-300'>
-                    <li>
-                      <span className='font-semibold text-white'>
-                        Python and Java programming
-                      </span>
-                    </li>
-                    <li>
-                      <span className='font-semibold text-white'>
-                        Algorithms and Data Structures
-                      </span>
-                    </li>
-                    <li>
-                      <span className='font-semibold text-white'>
-                        Calculus I & II
-                      </span>
-                    </li>
-                    <li>
-                      <span className='font-semibold text-white'>
-                        Linear Algebra
-                      </span>
-                    </li>
-                    <li>
-                      <span className='font-semibold text-white'>
-                        Discrete Mathematics
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
                 {/* HarvardX – CS50 AI */}
                 <div className='flex flex-col gap-4'>
                   <div>
@@ -263,6 +197,70 @@ export default function Education() {
                       techniques
                     </li>
                   </ul>
+                </div>
+                {/* University of Ottawa */}
+                <div className='flex flex-col gap-4'>
+                  <div>
+                    <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
+                      <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#800020]'></span>
+                      University of Ottawa
+                    </h3>
+                    <p className='mt-1 text-sm text-gray-400'>
+                      September 2022 – September 2023
+                    </p>
+                    <div className='mt-2 h-0.5 w-16 rounded-full bg-[#800020]'></div>
+                  </div>
+                  <ul className='list-inside list-disc space-y-3 text-[15px] leading-relaxed text-gray-300'>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Python and Java programming
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Algorithms and Data Structures
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Calculus I & II
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Linear Algebra
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Discrete Mathematics
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                {/* CÉGEP de Sherbrooke */}
+                <div className='flex flex-col gap-4'>
+                  <div>
+                    <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
+                      <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#105c54]'></span>
+                      CÉGEP de Sherbrooke
+                    </h3>
+                    <p className='mt-1 text-sm text-gray-400'>
+                      August 2021 – May 2022
+                    </p>
+                    <div className='mt-2 h-0.5 w-16 rounded-full bg-[#105c54]'></div>
+                  </div>
+                  <p className='text-[15px] leading-relaxed text-gray-300'>
+                    Focus on{' '}
+                    <span className='font-semibold text-white'>
+                      C++ programming fundamentals
+                    </span>{' '}
+                    and{' '}
+                    <span className='font-semibold text-white'>
+                      object-oriented design principles
+                    </span>
+                    .
+                  </p>
                 </div>
               </div>
             )}
