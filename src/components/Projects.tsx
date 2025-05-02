@@ -91,7 +91,7 @@ const projects: Project[] = [
     image: '/assets/ai-gallery.png',
     tech: ['Next.js', 'TypeScript', 'TailwindCSS', 'React'],
     buttons: [
-      { label: 'Explore', link: 'https://ai-gallery-rho.vercel.app/agents' },
+      { label: 'Explore', link: 'https://ai-gallery-rho.vercel.app/' },
       { label: 'GitHub', link: 'https://github.com/GBonkers/ai-gallery' },
     ],
   },
