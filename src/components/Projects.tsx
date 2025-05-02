@@ -85,13 +85,14 @@ const projects: Project[] = [
     buttons: [{ label: 'Private Source Code', locked: true }],
   },
   {
-    title: 'AI Workshop',
+    title: 'AI Gallery',
     description:
-      'Ongoing collection of AI projects built during my studies. Continuously expanding.',
-    image: '/assets/aiworkshop.png',
-    tech: ['Python'],
+      'An open-source platform for exploring AI concepts through interactive visualizations and demos. Actively maintained and continuously improved.',
+    image: '/assets/ai-gallery.png',
+    tech: ['Next.js', 'TypeScript', 'TailwindCSS', 'React'],
     buttons: [
-      { label: 'Discover', link: 'https://github.com/GBonkers/AI-Workshop' },
+      { label: 'Explore', link: 'https://ai-gallery-rho.vercel.app/agents' },
+      { label: 'GitHub', link: 'https://github.com/GBonkers/ai-gallery' },
     ],
   },
   {
