@@ -112,6 +112,25 @@ const projects: Project[] = [
     ],
   },
   {
+    title: 'Husband 4 Hire',
+    description:
+      'Designed a secure platform connecting employers and job seekers in an Agile group project.',
+    image: '/assets/husband4hire.png',
+    tech: ['Java', 'Spring Boot', 'React', 'MySQL'],
+    buttons: [{ label: 'Private Source Code', locked: true }],
+  },
+  {
+    title: 'AI Gallery',
+    description:
+      'An open-source platform for exploring AI concepts through interactive visualizations and demos. Actively maintained and continuously improved.',
+    image: '/assets/ai-gallery.png',
+    tech: ['Next.js', 'TypeScript', 'TailwindCSS', 'React'],
+    buttons: [
+      { label: 'Explore', link: 'https://ai-gallery-rho.vercel.app/' },
+      { label: 'GitHub', link: 'https://github.com/GBonkers/ai-gallery' },
+    ],
+  },
+  {
     title: 'Portfolio Website',
     description:
       'Personal portfolio built to showcase full-stack projects and technical skills.',
