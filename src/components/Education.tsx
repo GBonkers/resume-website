@@ -128,16 +128,119 @@ export default function Education() {
 
             {selected === 'other' && (
               <div className='relative flex flex-col gap-10 rounded-lg bg-neutral-900/80 p-6 shadow-lg ring-1 ring-white/5 backdrop-blur-sm'>
+                {/* IBM Cybersecurity Analyst Professional Certificate */}
+                <div className='flex flex-col gap-4'>
+                  <div>
+                    <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
+                      <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#1F70C1]'></span>
+                      IBM Cybersecurity Analyst Professional Certificate
+                    </h3>
+                    <p className='mt-1 text-sm text-gray-400'>
+                      May 2025 – June 2025
+                    </p>
+                    <div className='mt-2 h-0.5 w-16 rounded-full bg-[#1F70C1]'></div>
+                  </div>
+                  <ul className='list-inside list-disc space-y-3 text-[15px] leading-relaxed text-gray-300'>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Threat Analysis & Intelligence:
+                      </span>{' '}
+                      Analyzed{' '}
+                      <span className='font-semibold text-white'>
+                        APT29 (SolarWinds)
+                      </span>{' '}
+                      supply chain attack affecting{' '}
+                      <span className='font-semibold text-white'>
+                        18,000+ organizations
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Incident Response & Digital Forensics:
+                      </span>{' '}
+                      Hands-on training in{' '}
+                      <span className='font-semibold text-white'>
+                        breach investigation
+                      </span>
+                      {', '}
+                      <span className='font-semibold text-white'>
+                        evidence collection
+                      </span>
+                      {', and '}
+                      <span className='font-semibold text-white'>
+                        forensic analysis
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Penetration Testing:
+                      </span>{' '}
+                      Hands-on experience with{' '}
+                      <span className='font-semibold text-white'>
+                        vulnerability assessment
+                      </span>
+                      {' and '}
+                      <span className='font-semibold text-white'>
+                        ethical hacking techniques
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Cryptography & Security:
+                      </span>{' '}
+                      Applied{' '}
+                      <span className='font-semibold text-white'>
+                        encryption protocols
+                      </span>
+                      {' and '}
+                      <span className='font-semibold text-white'>
+                        secure communication methods
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Generative AI Security:
+                      </span>{' '}
+                      Specialized training in{' '}
+                      <span className='font-semibold text-white'>
+                        AI applications
+                      </span>
+                      {' for '}
+                      <span className='font-semibold text-white'>
+                        cybersecurity
+                      </span>
+                      {' and '}
+                      <span className='font-semibold text-white'>
+                        threat detection
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Security Tools Proficiency:
+                      </span>{' '}
+                      <span className='font-semibold text-white'>
+                        Wireshark
+                      </span>
+                      {', '}
+                      <span className='font-semibold text-white'>Nmap</span>
+                      {', '}
+                      <span className='font-semibold text-white'>OpenEDR</span>
+                      {', '}
+                      <span className='font-semibold text-white'>X-Threat</span>
+                      {' for network analysis and threat hunting'}
+                    </li>
+                  </ul>
+                </div>
                 {/* HarvardX – CS50 AI */}
                 <div className='flex flex-col gap-4'>
                   <div>
                     <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
                       <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#FF2D2D]'></span>
-                      HarvardX – CS50’s Introduction to Artificial Intelligence
-                      with Python
+                      HarvardX &ndash; CS50&apos;s Introduction to Artificial
+                      Intelligence with Python
                     </h3>
                     <p className='mt-1 text-sm text-gray-400'>
-                      April 2025 – Ongoing
+                      April 2025 – May 2025
                     </p>
                     <div className='mt-2 h-0.5 w-16 rounded-full bg-[#FF2D2D]'></div>
                   </div>
@@ -153,36 +256,6 @@ export default function Education() {
                       </span>
                     </li>
                     <li>
-                      Logical reasoning using{' '}
-                      <span className='font-semibold text-white'>
-                        logical operators
-                      </span>{' '}
-                      and{' '}
-                      <span className='font-semibold text-white'>
-                        knowledge-based inferences
-                      </span>
-                    </li>
-                    <li>
-                      Uncertainty modeling with{' '}
-                      <span className='font-semibold text-white'>
-                        Bayesian Networks
-                      </span>{' '}
-                      and{' '}
-                      <span className='font-semibold text-white'>
-                        Markov Chains
-                      </span>
-                    </li>
-                    <li>
-                      Fundamentals of{' '}
-                      <span className='font-semibold text-white'>
-                        Optimization
-                      </span>{' '}
-                      and{' '}
-                      <span className='font-semibold text-white'>
-                        Machine Learning
-                      </span>
-                    </li>
-                    <li>
                       Building basic{' '}
                       <span className='font-semibold text-white'>
                         Neural Networks
@@ -190,11 +263,50 @@ export default function Education() {
                       for supervised learning tasks
                     </li>
                     <li>
-                      Introduction to{' '}
+                      Fundamentals of{' '}
                       <span className='font-semibold text-white'>
-                        Natural Language Processing (NLP)
-                      </span>{' '}
-                      techniques
+                        Machine Learning algorithms
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                {/* University of Ottawa */}
+                <div className='flex flex-col gap-4'>
+                  <div>
+                    <h3 className='flex items-center gap-2 text-xl font-bold text-white'>
+                      <span className='inline-block h-2.5 w-2.5 rounded-full bg-[#800020]'></span>
+                      University of Ottawa
+                    </h3>
+                    <p className='mt-1 text-sm text-gray-400'>
+                      September 2022 – September 2023
+                    </p>
+                    <div className='mt-2 h-0.5 w-16 rounded-full bg-[#800020]'></div>
+                  </div>
+                  <ul className='list-inside list-disc space-y-3 text-[15px] leading-relaxed text-gray-300'>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Python and Java programming
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Algorithms and Data Structures
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Calculus I & II
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Linear Algebra
+                      </span>
+                    </li>
+                    <li>
+                      <span className='font-semibold text-white'>
+                        Discrete Mathematics
+                      </span>
                     </li>
                   </ul>
                 </div>

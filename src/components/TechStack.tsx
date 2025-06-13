@@ -4,13 +4,11 @@ import React, { JSX } from 'react';
 import { IconType } from 'react-icons';
 import {
   SiNextdotjs,
-  SiTailwindcss,
   SiTypescript,
   SiJavascript,
   SiNodedotjs,
   SiSpringboot,
   SiGo,
-  SiCplusplus,
   SiMysql,
   SiPostgresql,
   SiOracle,
@@ -18,6 +16,8 @@ import {
   SiGithubactions,
   SiGit,
   SiPython,
+  SiAngular,
+  SiNestjs,
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
 
@@ -63,7 +63,7 @@ const TechStack = (): JSX.Element => (
 
         {/* Row 2 */}
         <div className='-mt-[19px] flex gap-[5px]'>
-          <Hex Icon={SiTailwindcss} color='#d48d98' name='Tailwind CSS' />
+          <Hex Icon={SiAngular} color='#d48d98' name='Angular' />
           <Hex Icon={SiJavascript} color='#d48d98' name='JavaScript' />
           <Hex Icon={SiGit} color='#a3c7a5' name='Git' />
           <Hex Icon={SiNodedotjs} color='#ff7a70' name='Node.js' />
@@ -77,7 +77,7 @@ const TechStack = (): JSX.Element => (
           <Hex Icon={SiPython} color='#a5b3ce' name='Python' />
           <Hex Icon={SiGo} color='#ff7a70' name='Go' />
           <Hex Icon={FaJava} color='#ff7a70' name='Java' />
-          <Hex Icon={SiCplusplus} color='#ff7a70' name='C++' />
+          <Hex Icon={SiNestjs} color='#ff7a70' name='NestJS' />
         </div>
       </div>
 

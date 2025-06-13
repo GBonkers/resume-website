@@ -19,7 +19,7 @@ export default function Hero() {
         {/* Subtitles */}
         <div className='space-y-1 text-xl text-gray-200'>
           <p>Software Engineer</p>
-          <p>AI & Microservices Enthusiast</p>
+          <p>AI & Cybersecurity Specialist</p>
         </div>
 
         {/* Location */}
@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Actions */}
         <div className='flex flex-wrap items-center gap-4'>
           <a
-            href='/assets/GBouchard-Resume.pdf'
+            href='/assets/GBouchard-CV.pdf'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-gray-900 transition hover:bg-gray-100'
