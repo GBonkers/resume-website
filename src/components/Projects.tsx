@@ -18,6 +18,9 @@ import {
   SiGit,
   SiPython,
   SiReact,
+  SiAngular,
+  SiNestjs,
+  SiJest,
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
 
@@ -56,9 +59,41 @@ const techIconMap: Record<
   Python: SiPython,
   Java: FaJava,
   React: SiReact,
+  Angular: SiAngular,
+  NestJS: SiNestjs,
+  Jest: SiJest,
 };
 
 const projects: Project[] = [
+  {
+    title: 'Max Auto Detailing',
+    description:
+      'Built secure full-stack application managing customer data, appointment booking, and automated messaging',
+    image: '/assets/MAD.png',
+    tech: [
+      'Angular',
+      'NestJS',
+      'PostgreSQL',
+      'Jest',
+      'Supertest',
+      'Karma',
+      'Transloco',
+      'Docker',
+      'GitHub Actions',
+    ],
+    buttons: [{ label: 'Private Source Code', locked: true }],
+  },
+  {
+    title: 'AI Gallery',
+    description:
+      'An open-source platform for exploring AI concepts through interactive visualizations and demos. Actively maintained and improved.',
+    image: '/assets/ai-gallery.png',
+    tech: ['Next.js', 'TypeScript', 'TailwindCSS', 'React'],
+    buttons: [
+      { label: 'Explore', link: 'https://ai-gallery-rho.vercel.app/' },
+      { label: 'GitHub', link: 'https://github.com/GBonkers/ai-gallery' },
+    ],
+  },
   {
     title: 'Nexa',
     description:
@@ -77,32 +112,13 @@ const projects: Project[] = [
     ],
   },
   {
-    title: 'Husband 4 Hire',
-    description:
-      'Designed a secure platform connecting employers and job seekers in an Agile group project.',
-    image: '/assets/husband4hire.png',
-    tech: ['Java', 'Spring Boot', 'React', 'MySQL'],
-    buttons: [{ label: 'Private Source Code', locked: true }],
-  },
-  {
-    title: 'AI Gallery',
-    description:
-      'An open-source platform for exploring AI concepts through interactive visualizations and demos. Actively maintained and continuously improved.',
-    image: '/assets/ai-gallery.png',
-    tech: ['Next.js', 'TypeScript', 'TailwindCSS', 'React'],
-    buttons: [
-      { label: 'Explore', link: 'https://ai-gallery-rho.vercel.app/' },
-      { label: 'GitHub', link: 'https://github.com/GBonkers/ai-gallery' },
-    ],
-  },
-  {
     title: 'Portfolio Website',
     description:
       'Personal portfolio built to showcase full-stack projects and technical skills.',
     image: '/assets/portfolio.png',
     tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     buttons: [
-      { label: 'Discover', link: 'https://github.com/GBonkers/resume-website' },
+      { label: 'Github', link: 'https://github.com/GBonkers/resume-website' },
     ],
   },
 ];
@@ -121,7 +137,6 @@ const Projects: React.FC = () => (
             key={p.title}
             className='transform rounded-2xl border border-white/20 bg-black/20 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]'
           >
-            {/* → aspect-ratio container: choose square or video */}
             <div className='relative mb-4 aspect-square w-full overflow-hidden rounded-md'>
               <Image
                 src={p.image}

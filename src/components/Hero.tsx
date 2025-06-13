@@ -19,7 +19,7 @@ export default function Hero() {
         {/* Subtitles */}
         <div className='space-y-1 text-xl text-gray-200'>
           <p>Software Engineer</p>
-          <p>AI & Microservices Enthusiast</p>
+          <p>AI & Cybersecurity Specialist</p>
         </div>
 
         {/* Location */}
