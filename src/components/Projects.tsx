@@ -81,7 +81,10 @@ const projects: Project[] = [
       'Docker',
       'GitHub Actions',
     ],
-    buttons: [{ label: 'Private Source Code', locked: true }],
+    buttons: [{ 
+              label: 'Private Source Code', 
+              link: 'https://maxautodetailing.ca/'
+              }],
   },
   {
     title: 'AI Gallery',
