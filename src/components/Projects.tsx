@@ -81,10 +81,9 @@ const projects: Project[] = [
       'Docker',
       'GitHub Actions',
     ],
-    buttons: [{ 
-              label: 'Explore', 
-              link: 'https://maxautodetailing.ca/'
-              }],
+    buttons: [
+      { label: 'Explore', link: 'https://maxautodetailing.ca/'}
+    ],
   },
   {
     title: 'AI Gallery',
