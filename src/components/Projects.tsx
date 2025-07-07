@@ -82,7 +82,7 @@ const projects: Project[] = [
       'GitHub Actions',
     ],
     buttons: [{ 
-              label: 'Private Source Code', 
+              label: 'Explore', 
               link: 'https://maxautodetailing.ca/'
               }],
   },
