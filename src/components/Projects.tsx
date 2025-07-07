@@ -82,7 +82,7 @@ const projects: Project[] = [
       'GitHub Actions',
     ],
     buttons: [
-      { label: 'Explore', link: 'https://maxautodetailing.ca/'}
+      `{ label: 'Explore', link: 'https://maxautodetailing.ca/' }`
     ],
   },
   {
